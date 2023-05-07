@@ -1,3 +1,29 @@
 .my-navbar{
     background-color: turquoise;
 }
+
+.card-img-top {
+  height: 15rem;
+  object-fit: contain;
+}
+
+.card {
+  width: 20%; 
+  display: inline-block; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  margin: 10px;
+}
+
+.card-title {
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    line-break: break-all;
+}
+
+.card-body {
+   padding: -0.75rem; 
+}
+
+
