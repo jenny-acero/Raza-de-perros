@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 const razasDePerros = [
     {
         nombre: "CHIHUAHUA",
-        imagenURL: "imagenes/descarga.jpg",
+        imagenURL: "imagenes/chihuahua.jpg",
         descripcion:"Su origen es de    mexico del estado de Chihuahua, un adulto suele medir entre 15 y 23 cm y pesar de 1,8 a 2,7 kg. Si no recibe una eduacación apropiada puede llegar a ser nervioso, ladrador y ruidoso.",
         url: "chihuahua.html"
     },
