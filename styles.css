@@ -35,3 +35,14 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.imagen {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width: auto;
+}
+
+.container {
+  text-align: justify;
+}
