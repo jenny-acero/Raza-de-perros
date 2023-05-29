@@ -66,10 +66,12 @@ const razasDePerros = [
 
   function generarTarjetas() {
     const container = document.getElementById("tarjetas");
+
+    container.classList.add("row")
     
     razasDePerros.forEach(raza => {
       const card = document.createElement("div");
-      card.classList.add("card", "col-md-6");
+      card.classList.add("card", "col-md-5" , "col-sm-12");
       
       const image = document.createElement("img");
       image.classList.add("card-img-top");
