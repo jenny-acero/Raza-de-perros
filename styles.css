@@ -36,13 +36,17 @@
   text-overflow: ellipsis;
 }
 
-.imagen {
+#imagen {
   display: flex;
-  justify-content:center;
+  justify-content:left;
   align-items: center;
-  width: auto;
+ 
 }
 
 .container {
   text-align: justify;
+}
+
+#origen {
+  justify-content: right;
 }
